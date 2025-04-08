@@ -1,7 +1,7 @@
 package com.example.weatherapplication.di
 
-import com.example.weatherapplication.data.location.DefaultLocationTracker
-import com.example.weatherapplication.data.location.LocationTracker
+import com.example.weatherapplication.location.DefaultLocationTracker
+import com.example.weatherapplication.location.LocationTracker
 import com.example.weatherapplication.remote.ApiClient
 import com.example.weatherapplication.repository.WeatherRepository
 import com.example.weatherapplication.repository.WeatherRepositoryImpl

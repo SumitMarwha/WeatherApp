@@ -25,7 +25,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.core.graphics.toColorInt
 import androidx.lifecycle.lifecycleScope
-import com.example.weatherapplication.data.location.LocationTracker
+import com.example.weatherapplication.location.LocationTracker
 import com.example.weatherapplication.presentation.DaysForecastCompose
 import com.example.weatherapplication.presentation.HourlyForecastCompose
 import com.example.weatherapplication.presentation.LocationHeaderCompose

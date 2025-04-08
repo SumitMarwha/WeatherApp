@@ -58,7 +58,7 @@ fun DaysForecastCompose(weatherViewModel: WeatherViewModel?) {
                                 color = Color.White
                             )
                             Image(modifier = Modifier.width(40.dp).height(40.dp), painter = painterResource(id = item.weatherCodes?.iconRes ?: 0), contentDescription = null)
-                            Text(text = "${item.temperaturesMax}°/ ${item.temperaturesMin}")
+                            Text(text = "${item.temperaturesMax}°/ ${item.temperaturesMin}", color = Color.White)
                         }
                     }
                 }
